@@ -14,7 +14,7 @@
 
 body
 {
-    background-color:darkslategray;
+    background-color:rgb(255, 255, 255);
 }
 
 .liens
@@ -93,7 +93,8 @@ body
     display: flex;
     justify-content: space-around;
     position: absolute;
-    bottom: -110%;
+    bottom: -130%;
+    background-color:rgba(220, 216, 216, 0.255);
 }
 
 .service2
@@ -103,11 +104,121 @@ body
     display: flex;
     justify-content: space-around;
     position: absolute;
-    bottom: -200%;
+    bottom: -170%;
+    background-color:rgba(220, 216, 216, 0.255);
 }
 
 .voiture
 {
-    width: 200PX;
+    width: 28%;
+    height: 41vh;
+    border: #00E5F4 solid 3px;
+    border-radius: 20px;
+
 }
 
+.sante
+{
+    width: 28%;
+    height: 41vh;
+    border: #0b8d97 solid 3px;
+    border-radius: 20px;
+}
+
+
+.chien
+{
+    width: 28%;
+    height: 41vh;
+    border: #65b6bc solid 3px;
+    border-radius: 20px;
+}
+
+.maison
+{
+    width: 28%;
+    height: 41vh;
+    border: #83d0d6 solid 3px;
+    border-radius: 20px;
+}
+
+.foot
+{
+    width: 100%;
+    background-color: grey;
+    height: 40vh;
+    top: 300%;
+    position: absolute;
+}
+
+.rond
+{
+    width: 60px;
+    height: 60px;
+    border: #00E5F4 solid 5px;
+    border-radius: 100%;
+
+}
+
+.f
+{
+    position: absolute;
+    right: 90%;
+    bottom: 20%;
+}
+
+.t
+{
+    position: absolute;
+    left: 89%;
+    bottom: 20%;
+}
+
+.in
+{
+    position: absolute;
+    right: 72%;
+    bottom: 20%;
+}
+
+.ti
+{
+    position: absolute;
+    left: 73%;
+    bottom: 20%;
+}
+
+.g
+{
+    position: absolute;
+    right: 39%;
+    bottom: 20%;
+}
+
+.p
+{
+    position: absolute;
+    left: 39%;
+    bottom: 20%;
+}
+
+
+.pub
+{
+    display: flex;
+    justify-content:space-around;
+    width: 30%;
+    left: 35%;
+    position: absolute;
+    bottom: 55%;
+ 
+}
+
+.trait
+{
+    border: black solid 1px;
+    width: 65%;
+    position: absolute;
+    left: 17%;
+    bottom: 50%;
+}
