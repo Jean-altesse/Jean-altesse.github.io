@@ -1,0 +1,81 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background-image: url('../Image_projet/image_de_fond.jpeg');
+    background-size: cover;
+}
+
+.case
+{
+    width: 80%;
+    height: 70vh;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    background-color: rgba(255, 255, 255, 0.584);
+}
+
+.case1
+{
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.case1 input
+{
+    width: 90%;
+}
+
+input
+{
+    padding: 20px;
+    width: 45%;
+    margin: 10px;
+    
+}
+
+.case11
+{
+    width: 40%;
+    height: 25%;
+    top: 10%;
+    position: absolute;
+    left: 50%;
+}
+
+.case11 input
+{
+    width: 90%;
+}
+
+.info
+{
+    width: 64%;
+    position: absolute;
+    top: 55%;
+    left: 18%;
+}
+
+.info input
+{
+    width: 95%;
+}
+
+button
+{
+    padding: 15px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}

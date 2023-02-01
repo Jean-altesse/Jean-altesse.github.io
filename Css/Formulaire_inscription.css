@@ -1,1 +1,103 @@
-st
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url('../Image_projet/image_de_fond.jpeg');
+    background-size: cover;
+}
+
+.i
+{
+    position: relative;
+    left: 47%;
+    top: 100px;
+}
+
+h2
+{
+    text-align: center;
+    position: relative;
+    top: 120px;
+    
+}
+
+.p
+{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 92%;
+    left: 29%;
+
+}
+
+.formu
+{
+    background-color: #ffffff3b;
+    width: 70%;
+    height: 50vh;
+    position: absolute;
+    left: 15%;
+    padding: 70px;
+    border-radius: 15px;
+    top: 30%;
+}
+
+input
+{
+    padding: 20px;
+    margin: 10px;
+    width: 95%;
+    background-color: #ffffff8c;
+    border-color: #ffffff;
+    border-radius: 15px;
+
+}
+
+button
+{
+    padding: 15px;
+    width: 40%;
+    margin: 30px;
+    position: relative;
+    left: 28%;
+    margin-top: 60px;
+    background-color: #ffffff8c;
+    border-color: #2d6b70ca;
+}
+
+.trait
+{
+    width: 80%;
+    border: 2px solid white;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+
+.logof
+{
+    background-image: url('/Image_projet/logo.png');
+    width: 100px;
+    height: 80px;
+    background-size: cover;
+    position: absolute;
+    top: 89%;
+    right: 75%;
+}
+
+.slogan
+{
+    position: absolute;
+    top: 86%;
+    left: 40%;
+    width: 60%;
+    border-left: 1px solid white;
+    padding: 40px;
+    color: #ffffff ;
+}
