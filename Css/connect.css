@@ -213,7 +213,7 @@ body
     justify-content: space-around;
     position: absolute;
     bottom: -130%;
-    background-color:#ffffff;
+    background-color:rgba(220, 216, 216, 0.255);
     
 }
 
@@ -226,7 +226,7 @@ body
     justify-content: space-around;
     position: absolute;
     bottom: -170%;
-    background-color:#ffffff;
+    background-color:rgba(220, 216, 216, 0.255);
 }
 
 .voiture

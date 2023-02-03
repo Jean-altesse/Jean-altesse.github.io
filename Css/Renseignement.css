@@ -9,7 +9,7 @@
 
 body
 {
-    background-image: url('../Image_projet/image_de_fond.jpeg');
+    background-image: url('../Image_projet/image_fond.jpeg');
     background-size: cover;
 }
 
@@ -78,4 +78,13 @@ button
     position: absolute;
     top: 80%;
     left: 45%;
+}
+
+.trait
+{
+    width: 22%;
+    border: 2px solid white;
+    position: absolute;
+    left: 40%;
+    top: 150px;
 }
